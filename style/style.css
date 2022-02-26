@@ -6,7 +6,7 @@
     text-decoration: none;
 }
 body{
-    background-color: rgba(7, 6, 6, 0.932);
+    background-color:black;
 }
 .navbar{
     padding: 0.5rem;
@@ -78,7 +78,7 @@ body{
 }
 .about{
     padding-top: 1rem;
-    color: white;
+    color:red;
     
 }
 .About> a{
@@ -100,7 +100,7 @@ body{
     margin-left: 1rem;
 }
 .par{
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .par> p em{
@@ -113,7 +113,7 @@ body{
     width: 50%;
     padding: 1rem;
     height: 60%;
-    border: solid red;
+    border: solid white
 }
 .moringa{
     margin: 1rem;
@@ -130,14 +130,14 @@ body{
     justify-content: center;
 }
 .moringa>p{
-    font-size: 1rem;
-    line-height: 2rem;
+    font-size: 0.9rem;
+    line-height: 1.3rem;
 }
 .four .work .chef{
     width: 50%;
     padding: 1rem;
     height: 60%;
-    border: solid red;
+    border: solid white;
 }
 .chef{
     margin: 1rem;
@@ -152,9 +152,64 @@ body{
 .four .work{
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 .chef>p{
     font-size: 1rem;
-    line-height: 2rem;
+    line-height: 1.3rem;
 }
-    
+.cycling{
+    width: 50%;
+    margin: 0.5rem;
+    padding-top: 0.3rem;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+}
+.red{
+    color: red;
+    font-size: 1.5rem;
+    font-weight: lighter;
+}
+.cycling>img{
+    width: 50%;
+}
+.bike{
+    width: 50%;
+}
+.best{
+    color: white;
+    padding-left: 1rem;
+}
+.best>h3{
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+}
+.cyle{
+    color: red;
+}
+.hobbies{
+    display: flex;
+    justify-content: center;
+} 
+.quote{
+    color: white;
+    padding-left: 2rem;
+}
+.quote>h4{
+    padding-bottom: 0.3rem;
+}
+.aby{
+    display: flex;
+    justify-content: center;
+    font-size: 1.3rem;
+    font-weight:500;
+    text-transform: capitalize;
+}
+.aby{
+    padding-top: 1rem;
+    color:white;
+}
+h4{
+    color: red;
+}
