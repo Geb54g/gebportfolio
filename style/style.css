@@ -6,7 +6,7 @@
     text-decoration: none;
 }
 body{
-    background-color:black;
+    background-color: black;
 }
 .navbar{
     padding: 0.5rem;
@@ -82,7 +82,7 @@ body{
     
 }
 .About> a{
-    color: white;
+    color:white
 }
 .image{
     width: 70%;
@@ -95,7 +95,7 @@ body{
 }
 .par{
     padding-top: 2rem;
-    color: white;
+    color:white;
     line-height: 1.5rem;
     margin-left: 1rem;
 }
@@ -113,11 +113,11 @@ body{
     width: 50%;
     padding: 1rem;
     height: 60%;
-    border: solid white
+    border: solid red
 }
 .moringa{
     margin: 1rem;
-    color: white;
+    color:white;
     text-align: center;
 }
 .moringa>img{
@@ -137,7 +137,7 @@ body{
     width: 50%;
     padding: 1rem;
     height: 60%;
-    border: solid white;
+    border: solid red;
 }
 .chef{
     margin: 1rem;
@@ -178,7 +178,7 @@ body{
     width: 50%;
 }
 .best{
-    color: white;
+    color:white;
     padding-left: 1rem;
 }
 .best>h3{
@@ -193,7 +193,7 @@ body{
     justify-content: center;
 } 
 .quote{
-    color: white;
+    color:white;
     padding-left: 2rem;
 }
 .quote>h4{
@@ -208,8 +208,48 @@ body{
 }
 .aby{
     padding-top: 1rem;
-    color:white;
+    color:wheat;
 }
 h4{
     color: red;
+}
+.insurance{
+    width: 33%;
+    display: flex;
+}
+.insurance>img{
+    width: 40%;
+}
+.folio{
+    display: flex;
+    justify-content:center ;
+    padding-top: 1rem;
+    color:white;
+    padding-right: 1rem;
+}
+.insurance> p{
+    padding-left: 0.3rem;
+}
+.design{
+    width: 33%;
+    border: solid black;
+}
+.design>img{
+    width: 20%;
+}
+.serv{
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+    text-align: center;
+}
+.contact-infor{
+    display: flex;
+    justify-content:center;
+    padding-top: 1rem;
+    color: white;
+}
+.contact,.services{
+    padding-top: 1rem;
 }
