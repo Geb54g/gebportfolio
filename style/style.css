@@ -5,11 +5,14 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-decoration: none;
 }
+body{
+    background-color: rgba(7, 6, 6, 0.932);
+}
 .navbar{
     padding: 0.5rem;
 }
 .port a{
-    color: black;
+    color: gray;
     font-size: 2rem;
     font-weight: 700;
 }
@@ -25,6 +28,9 @@
     text-transform: capitalize;
     color: white;
 }
+.span{
+    color: red;
+}
 .navbar .subnav{
     display: flex;
     justify-content: space-between;
@@ -35,8 +41,71 @@
     background-image: url(/images/pexels-tima-miroshnichenko-5380792.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;
     width: 100%;
-    height: 600px;
-
+    height:100vh;
+}
+.name{
+    text-align: center;
+    color: white;
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 4rem;
+    font-size: 2.5rem;
+}
+.name{
+    padding: 1rem;
+}
+.ndolo>span{
+    color: red;
+}
+.btn{
+    width: 10%;
+    height: 2rem;
+    background-color: red;
+    border-radius: 1em;
+}
+.btn>a{
+    color: white;
+    font-size: 1rem;
+    font-weight: 900;
+}
+.about{
+    display: flex;
+    justify-content: center;
+    font-size: 2.5rem;
+    font-weight:500;
+    text-transform: capitalize;
+}
+.about{
+    padding-top: 1rem;
+    color: white;
+    
+}
+.About> a{
+    color: white;
+}
+.image{
+    width: 70%;
+    display: flex;
+}
+.image>img{
+    background-size: cover;
+    width: 60%;
+    padding: 0.5rem;
+}
+.par{
+    padding-top: 2rem;
+    color: white;
+    line-height: 1.5rem;
+    margin-left: 1rem;
+}
+.par{
+    font-size: 1.5rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.par> p em{
+    color: red;
+}
+.par> p{
+    word-spacing: 0.2rem;
 }
