@@ -28,6 +28,9 @@ body{
     text-transform: capitalize;
     color: white;
 }
+.nav> li a{
+    color: white;
+}
 
 .span{
     color: red;
@@ -62,11 +65,10 @@ body{
 .btn{
     width: 10%;
     height: 2rem;
-    background-color: red;
     border-radius: 1em;
 }
 .btn>a{
-    color: white;
+    color: black;
     font-size: 1rem;
     font-weight: 900;
 }
@@ -270,4 +272,7 @@ h4{
 .footer .foot{
     display: flex;
     justify-content:space-between;
+}
+a:hover{
+    background-color:red;
 }
