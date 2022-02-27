@@ -42,7 +42,7 @@ body{
     padding: 1rem;
 }
 .one{
-    background-image: url(/images/background.jpg);
+    background-image: url(../images/background.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
