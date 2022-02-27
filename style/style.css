@@ -275,4 +275,13 @@ h4{
 }
 a:hover{
     background-color:red;
+    cursor: pointer;
+}
+.me{
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+    border-radius: 1em;
+    font-size: 2rem;
 }
