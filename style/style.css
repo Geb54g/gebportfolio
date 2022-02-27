@@ -42,7 +42,7 @@ body{
     padding: 1rem;
 }
 .one{
-    background-image: url(/images/pexels-tima-miroshnichenko-5380792.jpg);
+    background-image: url(./images/pexels-tima-miroshnichenko-5380792.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
