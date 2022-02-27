@@ -6,7 +6,7 @@
     text-decoration: none;
 }
 body{
-    background-color: black;
+    background-color: rgb(31, 30, 30);
 }
 .navbar{
     padding: 0.5rem;
@@ -24,10 +24,11 @@ body{
 }
 .navbar .nav li{
     display: inline-block;
-    padding:0.5rem;
+    padding-left: 1.5rem;
     text-transform: capitalize;
     color: white;
 }
+
 .span{
     color: red;
 }
@@ -79,7 +80,7 @@ body{
 .about{
     padding-top: 1rem;
     color:red;
-    
+    box-shadow: 5px 5px 5px 5px #777777;
 }
 .About> a{
     color:white
@@ -113,10 +114,9 @@ body{
     width: 50%;
     padding: 1rem;
     height: 60%;
-    border: solid red
 }
 .moringa{
-    margin: 1rem;
+    margin: 0.5rem;
     color:white;
     text-align: center;
 }
@@ -128,6 +128,7 @@ body{
 .three .education{
     display: flex;
     justify-content: center;
+    box-shadow: 5px 5px 5px 5px #777777;
 }
 .moringa>p{
     font-size: 0.9rem;
@@ -137,10 +138,9 @@ body{
     width: 50%;
     padding: 1rem;
     height: 60%;
-    border: solid red;
 }
 .chef{
-    margin: 1rem;
+    margin:0.51rem;
     color: white;
     text-align: center;
 }
@@ -191,6 +191,7 @@ body{
 .hobbies{
     display: flex;
     justify-content: center;
+    box-shadow: 5px 5px 5px 5px #777777;
 } 
 .quote{
     color:white;
@@ -208,7 +209,7 @@ body{
 }
 .aby{
     padding-top: 1rem;
-    color:wheat;
+    color:white;
 }
 h4{
     color: red;
@@ -232,7 +233,6 @@ h4{
 }
 .design{
     width: 33%;
-    border: solid black;
 }
 .design>img{
     width: 20%;
@@ -252,4 +252,11 @@ h4{
 }
 .contact,.services{
     padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.contact-infor>input{
+    height:1rem;
+}
+.contact .aby{
+    padding-bottom: 1rem;
 }
