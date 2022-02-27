@@ -187,6 +187,9 @@ body{
 }
 .cyle{
     color: red;
+    font-size: 0.7rem;
+    line-height: 1rem;
+    font-weight: 600;
 }
 .hobbies{
     display: flex;
@@ -259,4 +262,12 @@ h4{
 }
 .contact .aby{
     padding-bottom: 1rem;
+}
+.ab{
+    color: white;
+    font-size: 1rem;
+}
+.footer .foot{
+    display: flex;
+    justify-content:space-between;
 }
